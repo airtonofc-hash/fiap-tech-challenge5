@@ -298,11 +298,11 @@ st.caption(
 data_path = find_data_path()
 if data_path is None:
     st.error(
-        "Não encontrei o arquivo **Base Tratada.xlsx** no repositório.
+        """Não encontrei o arquivo **Base Tratada.xlsx** no repositório.
 
-"
-        "Coloque o arquivo na raiz do projeto (mesma pasta do `streamlit_app.py`) "
-        "ou em `./data/`."
+Coloque o arquivo na raiz do projeto (mesma pasta do `streamlit_app.py`)
+ou em `./data/`.
+"""
     )
     st.stop()
 
